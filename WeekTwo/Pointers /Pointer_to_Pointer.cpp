@@ -13,6 +13,8 @@ int main(void) {
     printf("*pp = %d\n", *pp); // p = address of x
     printf("p = %d\n", p); // p = address of x
     printf("pp = %d\n", pp); // the address of pointer p
+    **pp = *p +2; // increment x by 2 
+    printf("**pp = %d\n", **pp); 
 
 
 
